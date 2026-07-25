@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: MIS Governance · VotingLock
+
+module MisGovernanceVotingLock {
+
+  embed gates 3..=6 {
+    context: "VotingLock pack on MIS domain mis_governance — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_voting_lock_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant voting_lock_021: voting_lock_021_bound == true;
+  invariant voting_lock_022: voting_lock_022_bound == true;
+  invariant voting_lock_023: voting_lock_023_bound == true;
+  invariant voting_lock_024: voting_lock_024_bound == true;
+  invariant voting_lock_025: voting_lock_025_bound == true;
+  invariant voting_lock_026: voting_lock_026_bound == true;
+  invariant voting_lock_027: voting_lock_027_bound == true;
+  invariant voting_lock_028: voting_lock_028_bound == true;
+  invariant voting_lock_029: voting_lock_029_bound == true;
+  invariant voting_lock_030: voting_lock_030_bound == true;
+  invariant voting_lock_031: voting_lock_031_bound == true;
+  invariant voting_lock_032: voting_lock_032_bound == true;
+  invariant voting_lock_033: voting_lock_033_bound == true;
+  invariant voting_lock_034: voting_lock_034_bound == true;
+  invariant voting_lock_035: voting_lock_035_bound == true;
+  invariant voting_lock_036: voting_lock_036_bound == true;
+  invariant voting_lock_037: voting_lock_037_bound == true;
+  invariant voting_lock_038: voting_lock_038_bound == true;
+  invariant voting_lock_039: voting_lock_039_bound == true;
+  invariant voting_lock_040: voting_lock_040_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_021(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_021_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_022(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_022_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_023(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_023_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_024(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_024_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_025(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_025_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_026(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_026_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_027(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_027_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_028(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_028_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_029(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_029_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_030(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_030_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_031(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_031_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_032(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_032_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_033(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_033_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_034(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_034_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_035(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_035_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_036(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_036_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_037(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_037_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_038(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_038_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_039(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_039_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_voting_lock_040(payload: Bytes) {
+    require payload != @0;
+    constraint voting_lock_040_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
